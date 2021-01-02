@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+hr {
+    margin: 20px 0;
+}
+
+.bold {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.light {
+    color: $Dark-grayish-blue;
+    font-weight: 400;
+}
+
+.location {
+    color: $Dark-grayish-blue;
+    margin-top: 15px;
+}
+
+.name {
+    display: inline-block;
+}
+
+.age {
+    color: $Dark-grayish-blue;
+    display: inline-block;
+}
+
+// .followers-section {
+//     display: inline-block;
+// }
+// .likes-section {
+//     display: inline-block;
+// }
+// .photos-section {
+//     display: inline-block;
+// }
