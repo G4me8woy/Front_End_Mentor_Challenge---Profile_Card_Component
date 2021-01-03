@@ -1,4 +1,6 @@
-![](design\desktop-design.jpg)
-
-![](design\mobile-design.jpg)
+# CHALLENGE
+## Web View
+![](./design/desktop-design.jpg)
+## Mobile View
+![](./design/mobile-design.jpg)
 
