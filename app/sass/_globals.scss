@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Kumbh Sans', sans-serif;
 }
 
 .flex {
@@ -9,8 +10,9 @@
     justify-content: space-around;
 }
 
-hr {
+.hr {
     margin: 20px 0;
+    border-top: 1px solid $Dark-gray;
 }
 
 .bold {
@@ -35,6 +37,10 @@ hr {
 .age {
     color: $Dark-grayish-blue;
     display: inline-block;
+}
+
+.label {
+    margin-top: 10px;
 }
 
 // .followers-section {

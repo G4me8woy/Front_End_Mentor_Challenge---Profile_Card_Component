@@ -3,6 +3,7 @@
   margin: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  font-family: 'Kumbh Sans', sans-serif;
 }
 
 .flex {
@@ -13,8 +14,9 @@
       justify-content: space-around;
 }
 
-hr {
+.hr {
   margin: 20px 0;
+  border-top: 1px solid #969696;
 }
 
 .bold {
@@ -39,6 +41,10 @@ hr {
 .age {
   color: #6a6f81;
   display: inline-block;
+}
+
+.label {
+  margin-top: 10px;
 }
 
 .ref-box {
@@ -82,6 +88,8 @@ hr {
   width: 332px;
   height: 355px;
   z-index: 1;
+  -webkit-box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.1);
+          box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.1);
 }
 
 .profile-section {
